@@ -1,0 +1,137 @@
+﻿<Window x:Class="MemoryGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MemoryGame"
+        mc:Ignorable="d"
+        Title="World's Coolest Memory Game" Height="400" Width="400">
+    <Grid x:Name="MainGrid"
+        HorizontalAlignment="Left" 
+        Height="346" Margin="10,10,10,10" 
+        VerticalAlignment="Top" 
+        Width="377">
+    
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="B00" Click="Button_Click" Grid.Column="0" Grid.Row="0">
+            <Image HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="82"
+               Source="placeHolder.jpg"/>
+        </Button>
+        
+        <Button x:Name="B01" Click="Button_Click" Grid.Column="1" Grid.Row="0">
+            <Image HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="81"
+            Source="placeHolder.jpg"/>
+        </Button>
+        
+        <Button x:Name="B02" Click="Button_Click" Grid.Column="2" Grid.Row="0">
+            <Image HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="81"
+            Source="placeHolder.jpg"/>
+        </Button>
+
+        <Button x:Name="B03" Click="Button_Click" Grid.Column="3" Grid.Row="0">
+            <Image HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="80"
+            Source="placeHolder.jpg"/>
+        </Button>
+
+        <Button x:Name="B10" Click="Button_Click" Grid.Column="0" Grid.Row="1">
+            <Image HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="82"
+            Source="placeHolder.jpg"/>
+        </Button>
+
+        <Button x:Name="B11" Click="Button_Click" Grid.Column="1" Grid.Row="1">
+            <Image HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="81"
+            Source="placeHolder.jpg"/>
+        </Button>
+
+        <Button x:Name="B12" Click="Button_Click" Grid.Column="2" Grid.Row="1">
+            <Image HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="81"
+            Source="placeHolder.jpg"/>
+        </Button>
+
+        <Button x:Name="B13" Click="Button_Click" Grid.Column="3" Grid.Row="1">
+            <Image HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="80"
+            Source="placeHolder.jpg"/>
+        </Button>
+
+        <Button x:Name="B20" Click="Button_Click" Grid.Column="0" Grid.Row="2">
+            <Image HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="82"
+            Source="placeHolder.jpg"/>
+        </Button>
+
+        <Button x:Name="B21" Click="Button_Click" Grid.Column="1" Grid.Row="2">
+            <Image HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="81"
+            Source="placeHolder.jpg"/>
+        </Button>
+
+        <Button x:Name="B22" Click="Button_Click" Grid.Column="2" Grid.Row="2">
+            <Image HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="81"
+            Source="placeHolder.jpg"/>
+        </Button>
+
+        <Button x:Name="B23" Click="Button_Click" Grid.Column="3" Grid.Row="2">
+            <Image HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="80"
+            Source="placeHolder.jpg"/>
+        </Button>
+
+        <Button x:Name="B30" Click="Button_Click" Grid.Column="0" Grid.Row="3">
+            <Image HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="82"
+            Source="placeHolder.jpg"/>
+        </Button>
+
+        <Button x:Name="B31" Click="Button_Click" Grid.Column="1" Grid.Row="3">
+            <Image HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="81"
+            Source="placeHolder.jpg"/>
+        </Button>
+
+        <Button x:Name="B32" Click="Button_Click" Grid.Column="2" Grid.Row="3">
+            <Image HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="81"
+            Source="placeHolder.jpg"/>
+        </Button>
+
+        <Button x:Name="B33" Click="Button_Click" Grid.Column="3" Grid.Row="3">
+            <Image HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="80"
+            Source="placeHolder.jpg"/>
+        </Button>
+    </Grid> 
+
+   <!--     <Grid x:Name="MainGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+            <Button x:Name="B00" Click="Button_Click" Grid.Column="0" Grid.Row="0">
+                <Image x:Name="I00" Source="1.jpg"></Image>
+            </Button>
+            <Button x:Name="B01" Click="Button_Click"  Grid.Column="1" Grid.Row="0">
+                <Image x:Name="I01" Source="1.jpg"></Image>
+            </Button>
+            <Button x:Name="B10" Click="Button_Click" Grid.Column="0" Grid.Row="1">
+                <Image x:Name="I10" Source="1.jpg"></Image>
+            </Button>
+            <Button x:Name="B11" Click="Button_Click" Grid.Column="1" Grid.Row="1">
+                <Image x:Name="I11" Source="1.jpg"></Image>
+            </Button>
+        </Grid>-->
+
+
+
+</Window>
